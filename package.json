@@ -1,5 +1,5 @@
 {
-  "name": "movie-list",
+  "name": "movie-list-swapi",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

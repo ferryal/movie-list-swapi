@@ -1,0 +1,110 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+        "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+        sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    height: -webkit-fill-available;
+    font-family: 'Lato';
+    margin: 0;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+        monospace;
+}
+
+.nav-movie {
+    font-family: 'Kalam', cursive;
+    font-size: 15px;
+    font-weight: bold;
+    border-bottom: 2px solid #cecece;
+}
+
+.navbar {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.m-left-15 {
+    padding-left: 15px;
+}
+
+.detail-container {
+    padding-right: 15px;
+}
+
+#container {
+    margin-top: 15px;
+}
+
+.wrapper-list-movie {
+    overflow: hidden;
+}
+
+.wrapper-detail {
+    margin-left: 6rem !important;
+    margin-right: 6rem !important;
+    border-radius: 10px;
+}
+
+.card-movie .number {
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    font-size: 0.8em;
+    padding: 5px 10px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.card-movie .name {
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+.mp-top-10 {
+    margin-top: 10px;
+    padding-top: 10px;
+}
+
+.mp-bottom-10 {
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+.type {
+    font-size: 15px;
+}
+
+
+.card-movie {
+    align-items: center;
+    margin: 10px 0 10px 0 !important;
+    background-color: #eee;
+    border-radius: 20px;
+    box-shadow: 0 3px 15px rgba(100, 100, 100, 0.5);
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+}
+
+.badge {
+    margin: 5px !important;
+}
+
+.img-container {
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .wrapper-detail {
+        margin-right: 10px !important;
+        margin-left: 10px !important;
+    }
+}
